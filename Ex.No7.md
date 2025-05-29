@@ -21,7 +21,8 @@ any lines that match the search pattern (i.e., lines containing “home”). Typ
 these lines correspond to user accounts and their associated home directories. 
 2. grep "home" /etc/passwd > /root/search.txt: This command builds upon the 
 previous one but adds a redirection step. Let’s break it down: 
->: The greater-than symbol is used for output redirection. It takes the output produced by the 
+
+ 3. The greater-than symbol is used for output redirection. It takes the output produced by the 
 grep command and saves it to a file. 
 /root/search.txt: The target file where the output will be stored. In this case, it’s a file 
 named search.txt located in the /root directory
